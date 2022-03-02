@@ -80,3 +80,10 @@ function draw() {
     song.setVolume(volume);
   }
 }
+
+function play() {
+  song.play();
+
+  song.setVolume(1);
+  song.rate(1);
+}
